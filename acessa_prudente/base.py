@@ -89,10 +89,10 @@ WSGI_APPLICATION = 'acessa_prudente.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'acessa$projeto_integrador_II',
+        'NAME': 'projeto_integrador_II',
         'USER': 'acessa',
-        'PASSWORD': 'Aa*452530',
-        'HOST': 'acessa.mysql.pythonanywhere-services.com',
+        'PASSWORD': 'prudente',
+        'HOST': 'localhost',
         'PORT': '3306',
     }
 }

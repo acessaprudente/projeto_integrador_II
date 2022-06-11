@@ -27,7 +27,7 @@ SECRET_KEY = 'ml*b94x&=ad=^ne0flgodfzt75zss5c4dny$r82+$axb3a&bf@'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['acessa.pythonanywhere.com']
+ALLOWED_HOSTS = ['acessa.pythonanywhere.com', '127.0.0.1', 'localhost']
 
 
 # Application definition

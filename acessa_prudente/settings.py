@@ -86,6 +86,23 @@ WSGI_APPLICATION = 'acessa_prudente.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/2.2/ref/settings/#databases
 
+# local  database
+"""
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'projeto_integrador_II',
+        'USER': 'acessa',
+        'PASSWORD': 'prudente',
+        'HOST': 'localhost',
+        'PORT': '3306',
+    }
+}
+"""
+
+
+
+
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
@@ -96,6 +113,8 @@ DATABASES = {
         'PORT': '3306',
     }
 }
+
+
 
 # Password validation
 # https://docs.djangoproject.com/en/2.2/ref/settings/#auth-password-validators
