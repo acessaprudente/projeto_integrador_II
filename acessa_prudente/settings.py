@@ -87,7 +87,7 @@ WSGI_APPLICATION = 'acessa_prudente.wsgi.application'
 # https://docs.djangoproject.com/en/2.2/ref/settings/#databases
 
 # local  database
-"""
+
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
@@ -98,7 +98,7 @@ DATABASES = {
         'PORT': '3306',
     }
 }
-"""
+
 
 
 
