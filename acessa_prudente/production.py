@@ -11,8 +11,8 @@ https://docs.djangoproject.com/en/2.2/ref/settings/
 """
 
 import os
-from django.core.mail import EmailMessage
-from decouple import config
+#from django.core.mail import EmailMessage
+#from decouple import config
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -27,7 +27,7 @@ SECRET_KEY = 'ml*b94x&=ad=^ne0flgodfzt75zss5c4dny$r82+$axb3a&bf@'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['acessa.pythonanywhere.com']
 
 
 # Application definition
@@ -39,7 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    
+
     'rest_framework',
     'rest_framework.authtoken',
     'django_filters',
@@ -89,10 +89,10 @@ WSGI_APPLICATION = 'acessa_prudente.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'projeto_integrador_II',
+        'NAME': 'acessa$projeto_integrador_II',
         'USER': 'acessa',
-        'PASSWORD': 'prudente',
-        'HOST': 'localhost',
+        'PASSWORD': 'Aa*452530',
+        'HOST': 'acessa.mysql.pythonanywhere-services.com',
         'PORT': '3306',
     }
 }
@@ -167,5 +167,5 @@ DEFAULT_FROM_EMAIL = ''
 
 
 
-    
+
 
